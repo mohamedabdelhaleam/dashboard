@@ -1,4 +1,4 @@
-import { Route, Routes, useNavigate } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import NoMatch from './Components/NoMatch/NoMatch';
 import Home from './Components/Home/Home';
@@ -13,13 +13,6 @@ import StudentProfile from './Components/Profile/StudentProfile';
 
 
 function App() {
-  const token = localStorage.getItem('token')
-  const navigate = useNavigate()
-  if(token === null || token === undefined)
-  {
-    navigate('/login')
-  }
-
   return (
     <div className="App">
       <Routes>
@@ -38,5 +31,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

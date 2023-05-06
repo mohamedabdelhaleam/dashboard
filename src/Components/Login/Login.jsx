@@ -14,7 +14,7 @@ const Login = () => {
 
 
     const handleLogin =(event)=>{
-        event.preventDefault()
+        event.preventDefault();
         axios.post(`${baseUrl}/api/Admin/admin/login`,{
             email: email,
             password: password
