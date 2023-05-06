@@ -1,0 +1,42 @@
+.error-oops
+{
+    font-size: 200px;
+    font-weight: bold;
+    color: #0A4D68;
+}
+.no-match-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.no-match-main
+{
+    width: 100%;
+    text-align: center;
+}
+.page-not-found
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.may-be-removed
+{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.back-to-home-from-error
+{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #05BFDB;
+    border: 0px solid transparent;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+}

@@ -1,0 +1,57 @@
+.count-card{
+    height: 200px;
+    padding: 30px;
+    position: relative;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.circle1,
+.circle2
+{
+    position: absolute;
+    height: 150px;
+    border-radius: 1000px;
+    background-color: rgba(255, 255, 255, 0.219);
+}
+.top
+{
+    width: 150px;
+    right: -30px;
+    top: -15px;
+}
+.bottom
+{
+    width: 170px;
+    right: -15px;
+    bottom: -25px;
+}
+.student
+{
+    background: rgb(255,191,150);
+    background: linear-gradient(90deg, rgba(255,191,150,1) 0%, rgba(254,125,150,1) 100%);
+}
+.doctor{
+    background: rgb(143,201,249);
+    background: linear-gradient(90deg, rgba(143,201,249,1) 0%, rgba(25,137,227,1) 100%);
+}
+.default
+{
+    background: rgb(131,217,210);
+    background: linear-gradient(90deg, rgba(131,217,210,1) 0%, rgba(30,207,181,1) 100%);
+}
+.count-card h2
+{
+    font-size: 25px;
+}
+.count-card h1
+{
+    font-size: 40px;
+}
+/*
+Doctors
+background: rgb(143,201,249);
+background: linear-gradient(90deg, rgba(143,201,249,1) 0%, rgba(25,137,227,1) 100%);
+
+*/
